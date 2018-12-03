@@ -22,7 +22,11 @@ export default () =>
                         .child(folderId => {
                             const x = S.documentList('folder').getMenuItems();
                             console.log(x);
-
+                            // This is where I'd like to have a stack of both 
+                            // - a documentList of folders 
+                            // - and documentList of products 
+                            // like in the category section below, but in the same pane
+                            // also repeating it for every subfolder - which i want to make recursive when all else is done ,'-)
                             const r = S.documentList()
                                 .title('Sub folder')
                                 .menuItems(S.documentList('folder').getMenuItems())
