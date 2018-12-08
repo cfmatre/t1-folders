@@ -20,11 +20,10 @@ const getChildren = async (id) => {
     }
     else {
         return S.documentList()
-            .title('Sub folder 2')
+            .title(folders[0].foldername)
             .filter('_type in ["folder", "product"] && ($id == parent._ref || $id == inFolder._ref)')
             .params({ id })
             .child(getChildren)
-
     }
 }
 
