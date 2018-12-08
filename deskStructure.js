@@ -1,14 +1,34 @@
 import S from '@sanity/desk-tool/structure-builder';
+import sanityClient from '@sanity/client';
 
-// export default () =>
-//     S.list()
-//         .title('Content')
-//         .items([
-//             S.listItem()
-//                 .title('Your first structure!')
-//         ]);
+const client = sanityClient({
+    projectId: '480iybm6',
+    dataset: 'dev',
+    useCdn: false
+});
 
-export default () =>
+const getChildren = async (id) => {
+    const folders = await client.fetch(`*[_type == "folder" && _id == "${id}"] {foldername} + *[_type == "folder" && parent._ref == "${id}"] {foldername}`);
+    if (folders.length === 0) {
+        return S.editor()
+            .id('product')
+            .schemaType("product")
+            .documentId(id)
+    }
+    else if (folders.length === 1) {
+        return null;
+    }
+    else {
+        return S.documentList()
+            .title('Sub folder 2')
+            .filter('_type in ["folder", "product"] && ($id == parent._ref || $id == inFolder._ref)')
+            .params({ id })
+            .child(getChildren)
+
+    }
+}
+
+export default async () =>
     S.list()
         .title('Content')
         .items([
@@ -19,76 +39,7 @@ export default () =>
                         .title('Root folders')
                         .menuItems(S.documentTypeList('folder').getMenuItems())
                         .filter('_type == "folder" && !defined(parent)')
-                        .child(folderId => {
-                            const x = S.documentList('folder').getMenuItems();
-                            console.log(x);
-                            // This is where I'd like to have a stack of both 
-                            // - a documentList of folders 
-                            // - and documentList of products 
-                            // like in the category section below, but in the same pane
-                            // also repeating it for every subfolder - which i want to make recursive when all else is done ,'-)
-                            const r = S.documentList()
-                                .title('Sub folder')
-                                .menuItems(S.documentList('folder').getMenuItems())
-                                .filter('_type == "folder" && $folderId == parent._ref')
-                                .params({ folderId })
-                                .child(folderId =>
-                                    S.documentList()
-                                        .title('Sub folder')
-                                        .menuItems(S.documentList('folder').getMenuItems())
-                                        .filter('_type == "folder" && $folderId == parent._ref')
-                                        .params({ folderId })
-                                        .child(folderId =>
-                                            S.documentList()
-                                                .title('Sub folder')
-                                                .menuItems(S.documentList('folder').getMenuItems())
-                                                .filter('_type == "folder" && $folderId == parent._ref')
-                                                .params({ folderId })
-                                        )
-                                )
-                            return r;
-                        })
+                        .child(getChildren)
                 ),
-
-            S.listItem()
-                .title('Products by Categories')
-                .child(
-                    S.documentList()
-                        .title('Parent categories')
-                        .menuItems(S.documentTypeList('category').getMenuItems())
-                        .filter('_type == $type && !defined(parents)')
-                        .params({ type: 'category' })
-                        .child(categoryId =>
-                            S.documentList()
-                                .title('Cild categories')
-                                .menuItems(S.documentList('category').getMenuItems())
-                                .filter('_type == $type && $categoryId in parents[]._ref')
-                                .params({ type: 'category', categoryId })
-                                .child(categoryId =>
-                                    S.documentList()
-                                        .title('Products')
-                                        .menuItems(S.documentTypeList('product').getMenuItems())
-                                        .filter('_type == $type && $categoryId in categories[]._ref')
-                                        .params({ type: 'product', categoryId })
-                                )
-                        )
-                    // .child(
-                    //     S.documentList()
-                    //         .title('Products')
-                    //         .menuItems(S.documentTypeList('product').getMenuItems())
-                    //         .filter('_type == $type && $categoryId in categories[]._ref')
-                    //         .params({ type: 'product', categoryId })
-                    // )
-                ),
-
-            S.listItem()
-                .title('Config')
-                .child(
-                    S.editor()
-                        .id('config')
-                        .schemaType('config')
-                        .documentId('global-config')
-                ),
-
             ...S.documentTypeListItems().filter(listItem => !['config'].includes(listItem.getId()))
         ]);

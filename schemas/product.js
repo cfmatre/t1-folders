@@ -9,6 +9,12 @@ export default {
       type: 'string'
     },
     {
+      name: 'inFolder',
+      title: 'Folder',
+      type: 'reference',
+      to: [{ type: 'folder' }]
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
