@@ -9,16 +9,16 @@
     "@babel/highlight" "^7.0.0"
 
 "@babel/core@^7.1.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/core/-/core-7.2.0.tgz#a4dd3814901998e93340f0086e9867fefa163ada"
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/core/-/core-7.2.2.tgz#07adba6dde27bb5ad8d8672f15fde3e08184a687"
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@babel/generator" "^7.2.0"
+    "@babel/generator" "^7.2.2"
     "@babel/helpers" "^7.2.0"
-    "@babel/parser" "^7.2.0"
-    "@babel/template" "^7.1.2"
-    "@babel/traverse" "^7.1.6"
-    "@babel/types" "^7.2.0"
+    "@babel/parser" "^7.2.2"
+    "@babel/template" "^7.2.2"
+    "@babel/traverse" "^7.2.2"
+    "@babel/types" "^7.2.2"
     convert-source-map "^1.1.0"
     debug "^4.1.0"
     json5 "^2.1.0"
@@ -27,11 +27,11 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.1.6", "@babel/generator@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.2.0.tgz#eaf3821fa0301d9d4aef88e63d4bcc19b73ba16c"
+"@babel/generator@^7.2.2":
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.2.2.tgz#18c816c70962640eab42fe8cae5f3947a5c65ccc"
   dependencies:
-    "@babel/types" "^7.2.0"
+    "@babel/types" "^7.2.2"
     jsesc "^2.5.1"
     lodash "^4.17.10"
     source-map "^0.5.0"
@@ -66,8 +66,8 @@
     "@babel/types" "^7.0.0"
 
 "@babel/helper-create-class-features-plugin@^7.2.1":
-  version "7.2.1"
-  resolved "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.1.tgz#f6e8027291669ef64433220dc8327531233f1161"
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.2.tgz#aac79552e41c94716a804d371e943f20171df0c5"
   dependencies:
     "@babel/helper-function-name" "^7.1.0"
     "@babel/helper-member-expression-to-functions" "^7.0.0"
@@ -123,14 +123,14 @@
     "@babel/types" "^7.0.0"
 
 "@babel/helper-module-transforms@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.1.0.tgz#470d4f9676d9fad50b324cdcce5fbabbc3da5787"
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.2.2.tgz#ab2f8e8d231409f8370c883d20c335190284b963"
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/helper-simple-access" "^7.1.0"
     "@babel/helper-split-export-declaration" "^7.0.0"
-    "@babel/template" "^7.1.0"
-    "@babel/types" "^7.0.0"
+    "@babel/template" "^7.2.2"
+    "@babel/types" "^7.2.2"
     lodash "^4.17.10"
 
 "@babel/helper-optimise-call-expression@^7.0.0":
@@ -206,9 +206,9 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.2", "@babel/parser@^7.1.6", "@babel/parser@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.2.0.tgz#02d01dbc330b6cbf36b76ac93c50752c69027065"
+"@babel/parser@^7.2.2":
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.2.2.tgz#37ebdbc88a2e1ebc6c8dd3d35ea9436e3e39e477"
 
 "@babel/plugin-proposal-async-generator-functions@^7.2.0":
   version "7.2.0"
@@ -312,8 +312,8 @@
     lodash "^4.17.10"
 
 "@babel/plugin-transform-classes@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/plugin-transform-classes/-/plugin-transform-classes-7.2.0.tgz#374f8876075d7d21fea55aeb5c53561259163f96"
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/plugin-transform-classes/-/plugin-transform-classes-7.2.2.tgz#6c90542f210ee975aa2aa8c8b5af7fa73a126953"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.0.0"
     "@babel/helper-define-map" "^7.1.0"
@@ -467,8 +467,8 @@
     "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-transform-spread@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/plugin-transform-spread/-/plugin-transform-spread-7.2.0.tgz#0c76c12a3b5826130078ee8ec84a7a8e4afd79c4"
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/plugin-transform-spread/-/plugin-transform-spread-7.2.2.tgz#3103a9abe22f742b6d406ecd3cd49b774919b406"
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -568,37 +568,37 @@
     pirates "^4.0.0"
     source-map-support "^0.5.9"
 
-"@babel/runtime@^7.0.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
   version "7.2.0"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/template@^7.1.0", "@babel/template@^7.1.2":
-  version "7.1.2"
-  resolved "https://registry.npmjs.org/@babel/template/-/template-7.1.2.tgz#090484a574fef5a2d2d7726a674eceda5c5b5644"
+"@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/template/-/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.1.2"
-    "@babel/types" "^7.1.2"
+    "@babel/parser" "^7.2.2"
+    "@babel/types" "^7.2.2"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.1.5", "@babel/traverse@^7.1.6":
-  version "7.1.6"
-  resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.1.6.tgz#c8db9963ab4ce5b894222435482bd8ea854b7b5c"
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.1.5", "@babel/traverse@^7.2.2":
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.2.2.tgz#961039de1f9bcb946d807efe2dba9c92e859d188"
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@babel/generator" "^7.1.6"
+    "@babel/generator" "^7.2.2"
     "@babel/helper-function-name" "^7.1.0"
     "@babel/helper-split-export-declaration" "^7.0.0"
-    "@babel/parser" "^7.1.6"
-    "@babel/types" "^7.1.6"
+    "@babel/parser" "^7.2.2"
+    "@babel/types" "^7.2.2"
     debug "^4.1.0"
     globals "^11.1.0"
     lodash "^4.17.10"
 
-"@babel/types@^7.0.0", "@babel/types@^7.1.2", "@babel/types@^7.1.6", "@babel/types@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/@babel/types/-/types-7.2.0.tgz#7941c5b2d8060e06f9601d6be7c223eef906d5d8"
+"@babel/types@^7.0.0", "@babel/types@^7.2.0", "@babel/types@^7.2.2":
+  version "7.2.2"
+  resolved "https://registry.npmjs.org/@babel/types/-/types-7.2.2.tgz#44e10fc24e33af524488b716cdaee5360ea8ed1e"
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.10"
@@ -615,18 +615,18 @@
   version "1.1.3"
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
 
-"@sanity/base@^0.136.2":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/base/-/base-0.136.3.tgz#5a93f4c25516409bbe89586ef76055d4358d79e6"
+"@sanity/base@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/base/-/base-0.138.0.tgz#9dc30311483507a2eae2ca7e2d702eb665b95cf0"
   dependencies:
-    "@sanity/client" "0.136.2"
-    "@sanity/document-store" "0.136.3"
-    "@sanity/image-url" "0.136.0"
-    "@sanity/observable" "0.136.0"
-    "@sanity/preview" "0.136.0"
-    "@sanity/schema" "0.136.2"
-    "@sanity/state-router" "0.136.0"
-    "@sanity/validation" "0.136.2"
+    "@sanity/client" "0.138.0"
+    "@sanity/document-store" "0.138.0"
+    "@sanity/image-url" "0.138.0"
+    "@sanity/observable" "0.138.0"
+    "@sanity/preview" "0.138.0"
+    "@sanity/schema" "0.138.0"
+    "@sanity/state-router" "0.138.0"
+    "@sanity/validation" "0.138.0"
     history "^4.6.3"
     in-publish "^2.0.0"
     lodash "^4.17.4"
@@ -641,42 +641,42 @@
     semver-compare "^1.0.0"
     shallow-equals "^1.0.0"
 
-"@sanity/block-tools@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/block-tools/-/block-tools-0.136.2.tgz#d65c8e5ab2ddb6feed74402e40451caeaec01c0e"
+"@sanity/block-tools@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/block-tools/-/block-tools-0.138.0.tgz#adfe8f8b99ef53e30e44a16d1f914ceb6ad053a3"
   dependencies:
     get-random-values "^1.2.0"
     lodash "^4.17.4"
 
-"@sanity/check@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/check/-/check-0.136.0.tgz#88a08d6a072c228a0442e3c131ba4c73d9b53f08"
+"@sanity/check@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/check/-/check-0.138.0.tgz#4f839ff22476d76e3cf62775b0151658b3f0e05d"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/resolver" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/resolver" "0.138.0"
     chalk "^2.3.0"
     fs-extra "^6.0.1"
     in-publish "^2.0.0"
     promise-props-recursive "^1.0.0"
 
-"@sanity/client@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/client/-/client-0.136.2.tgz#e45befe0091b8ec12037b4eda837c3a336bfc4ec"
+"@sanity/client@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/client/-/client-0.138.0.tgz#e78360dba969265bdaab2da26f5f77e39afb99d0"
   dependencies:
-    "@sanity/eventsource" "0.136.0"
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/observable" "0.136.0"
+    "@sanity/eventsource" "0.138.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/observable" "0.138.0"
     deep-assign "^2.0.0"
     get-it "^4.0.1"
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
-"@sanity/components@^0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/components/-/components-0.136.3.tgz#ed6e26e781c060bcd4c8687bc6e7e5603db7e72e"
+"@sanity/components@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/components/-/components-0.138.0.tgz#3fc48ec7e5b201a6b8bb10e06421164baacfd69c"
   dependencies:
-    "@sanity/date-input" "0.136.0"
-    "@sanity/imagetool" "0.136.0"
+    "@sanity/date-input" "0.138.0"
+    "@sanity/imagetool" "0.138.0"
     attr-accept "^1.1.0"
     boundless-arrow-key-navigation "^1.1.0"
     canvas-to-blob "^0.0.0"
@@ -697,27 +697,27 @@
     react-ink "^6.1.0"
     react-popper "^1.0.2"
     react-sortable-hoc "^0.6.3"
-    react-split-pane "^0.1.63"
+    react-split-pane "^0.1.84"
     react-tippy "^1.2.3"
     rxjs "^6.1.0"
     scroll "^2.0.0"
 
-"@sanity/core@^0.136.2":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/core/-/core-0.136.3.tgz#69acca324db5b0a77dec9116195ce3ae5a2f1426"
+"@sanity/core@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/core/-/core-0.138.0.tgz#c1014e6352ff4cb0dc886d5cb13d89c8705e82ef"
   dependencies:
     "@babel/preset-env" "^7.1.0"
     "@babel/register" "^7.0.0"
-    "@sanity/check" "0.136.0"
-    "@sanity/export" "0.136.2"
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/import" "0.136.3"
-    "@sanity/mutator" "0.136.3"
-    "@sanity/plugin-loader" "0.136.0"
-    "@sanity/resolver" "0.136.0"
-    "@sanity/server" "0.136.0"
-    "@sanity/util" "0.136.0"
-    "@sanity/uuid" "0.136.0"
+    "@sanity/check" "0.138.0"
+    "@sanity/export" "0.138.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/import" "0.138.0"
+    "@sanity/mutator" "0.138.0"
+    "@sanity/plugin-loader" "0.138.0"
+    "@sanity/resolver" "0.138.0"
+    "@sanity/server" "0.138.0"
+    "@sanity/util" "0.138.0"
+    "@sanity/uuid" "0.138.0"
     batch-stream-operation "^1.0.2"
     chokidar "^2.0.3"
     configstore "^3.0.0"
@@ -727,43 +727,40 @@
     execa "^0.10.0"
     filesize "^3.5.6"
     fs-extra "^6.0.1"
-    get-uri "^2.0.2"
     json-lexer "^1.1.1"
     json5 "^1.0.1"
     lodash "^4.17.4"
+    log-symbols "^2.2.0"
+    oneline "^1.0.0"
     path-exists "^3.0.0"
     pretty-ms "^3.2.0"
-    promise-each-concurrency "^2.0.1"
-    pumpify "^1.3.5"
     resolve-from "^4.0.0"
     rimraf "^2.6.2"
     semver "^5.5.0"
-    simple-concat "^1.0.0"
     simple-get "^3.0.2"
     tar-fs "^1.16.0"
     terser "^3.10.11"
-    through2 "^2.0.3"
 
-"@sanity/data-aspects@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/data-aspects/-/data-aspects-0.136.0.tgz#eba4d1e08659732b224d9e664b41a8e16fbde489"
+"@sanity/data-aspects@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/data-aspects/-/data-aspects-0.138.0.tgz#52d0e3bb0fd9139d43642df29485aae625ff0612"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
     in-publish "^2.0.0"
     lodash "^4.17.4"
 
-"@sanity/date-input@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/date-input/-/date-input-0.136.0.tgz#89539536036f62d1115e41e3572ff243ab485d0c"
+"@sanity/date-input@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/date-input/-/date-input-0.138.0.tgz#17a278d9f83f97060ad3e19884eac3196a817e0c"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/rich-date-input" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/rich-date-input" "0.138.0"
 
-"@sanity/default-layout@^0.136.2":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-0.136.3.tgz#cbabdfd61807ec0f72a3c46f04bb0681da13b624"
+"@sanity/default-layout@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-0.138.0.tgz#61ec90f209e52dfe282f65e89e06b276690a250d"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
     is-hotkey "^0.1.2"
     lodash "^4.17.4"
     react-click-outside "^3.0.0"
@@ -771,25 +768,25 @@
     react-tippy "^1.2.3"
     rxjs "^6.1.0"
 
-"@sanity/default-login@^0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/default-login/-/default-login-0.136.0.tgz#bfc702fc13e281dbb3f561c8201de08bebb8a55b"
+"@sanity/default-login@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/default-login/-/default-login-0.138.0.tgz#0575cbf15e69dd88d2ca1c8a10ec07b360d6cde5"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
     in-publish "^2.0.0"
     prop-types "^15.6.0"
 
-"@sanity/desk-tool@^0.136.2":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-0.136.3.tgz#762be3ad1baee93c4df6e113970fbfa1c3437dd1"
+"@sanity/desk-tool@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-0.138.0.tgz#b7505b078e92da9365d8c8636e68d4094619a2f0"
   dependencies:
-    "@sanity/data-aspects" "0.136.0"
-    "@sanity/form-builder" "0.136.3"
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/mutator" "0.136.3"
-    "@sanity/structure" "0.136.2"
-    "@sanity/uuid" "0.136.0"
-    "@sanity/validation" "0.136.2"
+    "@sanity/data-aspects" "0.138.0"
+    "@sanity/form-builder" "0.138.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/mutator" "0.138.0"
+    "@sanity/structure" "0.138.0"
+    "@sanity/uuid" "0.138.0"
+    "@sanity/validation" "0.138.0"
     classnames "^2.2.5"
     date-fns "^1.29.0"
     diff "^3.2.0"
@@ -805,25 +802,25 @@
     rxjs "^6.1.0"
     shallow-equals "^1.0.0"
 
-"@sanity/document-store@0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/document-store/-/document-store-0.136.3.tgz#18ecb44dc0847ba4e61ccfa07ab6ed28bf37ecb8"
+"@sanity/document-store@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/document-store/-/document-store-0.138.0.tgz#eeb130824272adf31d97421b3c84e46b5f10b63f"
   dependencies:
-    "@sanity/mutator" "0.136.3"
+    "@sanity/mutator" "0.138.0"
     lodash "^4.17.4"
     nano-pubsub "^1.0.2"
     rxjs "^6.1.0"
 
-"@sanity/eventsource@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/eventsource/-/eventsource-0.136.0.tgz#278863757b09813e47cb9ed1795670dd65138b02"
+"@sanity/eventsource@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/eventsource/-/eventsource-0.138.0.tgz#9a90b6b8d0e4a9a5ce34e2c6d7cb30cd016cb665"
   dependencies:
     eventsource "^1.0.6"
     eventsource-polyfill "^0.9.6"
 
-"@sanity/export@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/export/-/export-0.136.2.tgz#1dcba963c4705367da050c10242a8da4be3e40b7"
+"@sanity/export@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/export/-/export-0.138.0.tgz#9cf8351c4dc5abd36464dd46b1789c36c956e581"
   dependencies:
     archiver "^2.1.1"
     debug "^3.1.0"
@@ -834,16 +831,16 @@
     simple-get "^3.0.2"
     split2 "^2.1.1"
 
-"@sanity/form-builder@0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-0.136.3.tgz#ff816f80a3fea758729130bd59de0404743014b5"
+"@sanity/form-builder@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-0.138.0.tgz#90600ae1eb1df5d4dfb2560d3abf746294fcb8f0"
   dependencies:
-    "@sanity/block-tools" "0.136.2"
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/image-url" "0.136.0"
-    "@sanity/imagetool" "0.136.0"
-    "@sanity/mutator" "0.136.3"
-    "@sanity/schema" "0.136.2"
+    "@sanity/block-tools" "0.138.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/image-url" "0.138.0"
+    "@sanity/imagetool" "0.138.0"
+    "@sanity/mutator" "0.138.0"
+    "@sanity/schema" "0.138.0"
     attr-accept "^1.1.0"
     canvas-to-blob "^0.0.0"
     classnames "^2.2.5"
@@ -871,28 +868,28 @@
     slate-soft-break "^0.4.1"
     speakingurl "^13.0.0"
 
-"@sanity/generate-help-url@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.136.0.tgz#347932b7727789e3eccb9dc97593db01e72904a0"
+"@sanity/generate-help-url@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.138.0.tgz#a4f10213251b4ec9f08a11e5077f4238b80bb316"
 
-"@sanity/image-url@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-0.136.0.tgz#dde56bd43d5a538d1373f9309d1fff7a9878f94a"
+"@sanity/image-url@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-0.138.0.tgz#092b2beb55f1089cb0f27c7ae1289c435828914c"
 
-"@sanity/imagetool@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/imagetool/-/imagetool-0.136.0.tgz#820b012fc31802302b94eb0f67e725ccc23797e8"
+"@sanity/imagetool@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/imagetool/-/imagetool-0.138.0.tgz#5eb78bcc1a0cc5b6f8ed058c3903f4bb00ed747c"
   dependencies:
     debug "^3.1.0"
     dom-event "1.0.0"
     lodash "^4.17.4"
 
-"@sanity/import@0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/import/-/import-0.136.3.tgz#3649ae02ba6aa0e844ee4fef1e5d3b9328034f06"
+"@sanity/import@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/import/-/import-0.138.0.tgz#cbb676af9dcad38fcd49f893550d708c365ab978"
   dependencies:
-    "@sanity/mutator" "0.136.3"
-    "@sanity/uuid" "0.136.0"
+    "@sanity/mutator" "0.138.0"
+    "@sanity/uuid" "0.138.0"
     debug "^3.1.0"
     file-url "^2.0.2"
     fs-extra "^6.0.1"
@@ -906,69 +903,71 @@
     peek-stream "^1.1.2"
     split2 "^2.1.1"
     tar-fs "^1.16.0"
+    whatwg-url "^7.0.0"
 
-"@sanity/mutator@0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/mutator/-/mutator-0.136.3.tgz#66341214e23a57356162d141e9034b8fd4f44e36"
+"@sanity/mutator@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/mutator/-/mutator-0.138.0.tgz#3b9d6f981106d1b1aab61e8a09f49bf58f334bcb"
   dependencies:
     debug "^3.1.0"
     diff-match-patch "^1.0.0"
     lodash "^4.17.4"
 
-"@sanity/observable@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/observable/-/observable-0.136.0.tgz#7cb8d79d39b910e7a4f9d57800beeb6d0a0269bf"
+"@sanity/observable@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/observable/-/observable-0.138.0.tgz#2897f528dfa7569b955c096d34b3cc583bebfec1"
   dependencies:
     object-assign "^4.1.1"
     rxjs "^6.1.0"
 
-"@sanity/plugin-loader@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/plugin-loader/-/plugin-loader-0.136.0.tgz#e1880b269c52038fde8528f80194617b1e8e354d"
+"@sanity/plugin-loader@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/plugin-loader/-/plugin-loader-0.138.0.tgz#bf4ed608369283710af469180cdf5b37435e1910"
   dependencies:
-    "@sanity/resolver" "0.136.0"
-    "@sanity/util" "0.136.0"
-    "@sanity/webpack-integration" "0.136.0"
+    "@sanity/resolver" "0.138.0"
+    "@sanity/util" "0.138.0"
+    "@sanity/webpack-integration" "0.138.0"
     css-modules-require-hook "4.1.0"
     interop-require "^1.0.0"
 
-"@sanity/preview@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/preview/-/preview-0.136.0.tgz#33caa271e9eb284856088bf72013cc420e0c6fc5"
+"@sanity/preview@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/preview/-/preview-0.138.0.tgz#203701ab5122304ef48fc5e08374c303ae98448a"
   dependencies:
-    "@sanity/image-url" "0.136.0"
+    "@sanity/image-url" "0.138.0"
     lodash "^4.17.4"
     observable-props "^2.0.0"
+    react-props-stream "^1.0.0"
     rxjs "^6.1.0"
     shallow-equals "^1.0.0"
 
-"@sanity/resolver@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/resolver/-/resolver-0.136.0.tgz#36b243edd634ee5d1c3a1e8d3dea6d4434e4ec20"
+"@sanity/resolver@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/resolver/-/resolver-0.138.0.tgz#771621f1a1ec8b112d9b4bb8a45188658fe431de"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
-    "@sanity/util" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
+    "@sanity/util" "0.138.0"
     fs-extra "^6.0.1"
     lodash "^4.17.4"
     path-exists "^3.0.0"
     promise-props-recursive "^1.0.0"
 
-"@sanity/rich-date-input@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/rich-date-input/-/rich-date-input-0.136.0.tgz#3c5980e5bca19ffbe3e4b138875d3c18c8de70af"
+"@sanity/rich-date-input@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/rich-date-input/-/rich-date-input-0.138.0.tgz#205b9ad23c1ca4e3992637a8c73de0f7389b5854"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
     lodash "^4.17.4"
     moment "^2.19.1"
     moment-timezone "^0.5.11"
     prop-types "^15.6.0"
     react-datepicker "^1.8.0"
 
-"@sanity/schema@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/schema/-/schema-0.136.2.tgz#e68a80c89bbb1684724acf1692597dc7ed7518b0"
+"@sanity/schema@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/schema/-/schema-0.138.0.tgz#58072cbb364d91357118d8fb7e45d2c3f4de51be"
   dependencies:
-    "@sanity/generate-help-url" "0.136.0"
+    "@sanity/generate-help-url" "0.138.0"
     arrify "^1.0.1"
     humanize-list "^1.0.1"
     json-reduce "^1.0.0"
@@ -976,18 +975,18 @@
     lodash "^4.17.4"
     object-inspect "^1.3.0"
 
-"@sanity/server@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/server/-/server-0.136.0.tgz#b5b91545d7dc2d1482f4be08d31a4416273efba3"
+"@sanity/server@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/server/-/server-0.138.0.tgz#2a991e6150765e72b110cc2386eced67a081378a"
   dependencies:
     "@babel/core" "^7.1.0"
     "@babel/plugin-proposal-class-properties" "^7.1.0"
     "@babel/preset-env" "^7.1.0"
     "@babel/preset-react" "^7.0.0"
     "@babel/register" "^7.0.0"
-    "@sanity/resolver" "0.136.0"
-    "@sanity/webpack-integration" "0.136.0"
-    "@sanity/webpack-loader" "0.136.0"
+    "@sanity/resolver" "0.138.0"
+    "@sanity/webpack-integration" "0.138.0"
+    "@sanity/webpack-loader" "0.138.0"
     babel-loader "^8.0.0"
     css-loader "^0.28.7"
     eventsource-polyfill "^0.9.6"
@@ -1010,16 +1009,16 @@
     webpack-dev-middleware "^2.0.5"
     webpack-hot-middleware "^2.17.1"
 
-"@sanity/state-router@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/state-router/-/state-router-0.136.0.tgz#58b83c76f7eeb96f9eb362634215533642b166e5"
+"@sanity/state-router@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/state-router/-/state-router-0.138.0.tgz#57ae4c97d0eb7f748b551b7092ba18a9a1aaaa62"
   dependencies:
     lodash "^4.17.4"
     nano-pubsub "^1.0.2"
 
-"@sanity/structure@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/structure/-/structure-0.136.2.tgz#40de89ad67a35410c1bec909182a386ede514b61"
+"@sanity/structure@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/structure/-/structure-0.138.0.tgz#7106c0335887824ed286b49d9d37ed0a0a55fed5"
   dependencies:
     "@types/lodash" "^4.14.116"
     "@types/memoize-one" "^3.1.1"
@@ -1027,31 +1026,31 @@
     lodash "^4.17.4"
     memoize-one "^3.1.1"
 
-"@sanity/util@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/util/-/util-0.136.0.tgz#b675d1ae2fffcb41ee56b5ccba2160f233268a47"
+"@sanity/util@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/util/-/util-0.138.0.tgz#6f6dcd38bfd2c485a3a2b81baf3352fe0237eda8"
   dependencies:
     fs-extra "^6.0.1"
     lodash "^4.17.4"
     resolve-from "^4.0.0"
 
-"@sanity/uuid@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/uuid/-/uuid-0.136.0.tgz#90788c0463fcdc0343d891e49cd2db9b224cb258"
+"@sanity/uuid@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/uuid/-/uuid-0.138.0.tgz#6777dde4f7a2eb4aabfe51efddaed27d22c69d26"
   dependencies:
     uuid "3.1.0"
 
-"@sanity/validation@0.136.2":
-  version "0.136.2"
-  resolved "https://registry.npmjs.org/@sanity/validation/-/validation-0.136.2.tgz#e03640bbb16aba7a699f01502ab342d14ec71a9e"
+"@sanity/validation@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/validation/-/validation-0.138.0.tgz#5bc62aef14ab2e06e86cd87074c32c192d2b6293"
   dependencies:
     clone-deep "^2.0.1"
     es6-error "^4.0.2"
     type-of-is "^3.5.1"
 
-"@sanity/vision@^0.136.3":
-  version "0.136.3"
-  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-0.136.3.tgz#7910e6ef12d187bc4b072e94777d765ce31654d5"
+"@sanity/vision@^0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-0.138.0.tgz#f036c8d9398207fe78652c58f03748702c04cf33"
   dependencies:
     classnames "^2.2.5"
     moment "^2.19.1"
@@ -1060,14 +1059,14 @@
     react-icon-base "^2.1.2"
     react-json-view "^1.19.1"
     react-spinner "^0.2.6"
-    react-split-pane "^0.1.63"
+    react-split-pane "^0.1.84"
 
-"@sanity/webpack-integration@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/webpack-integration/-/webpack-integration-0.136.0.tgz#6fd61e3d83ed6143927b9929404f5102e449d3fd"
+"@sanity/webpack-integration@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/webpack-integration/-/webpack-integration-0.138.0.tgz#eec32dc3a4980123af428447646415690a67eb29"
   dependencies:
-    "@sanity/resolver" "0.136.0"
-    "@sanity/webpack-loader" "0.136.0"
+    "@sanity/resolver" "0.138.0"
+    "@sanity/webpack-loader" "0.138.0"
     fs.realpath "^1.0.0"
     p-async-cache "^1.0.2"
     postcss-cssnext "^3.0.2"
@@ -1075,36 +1074,25 @@
     postcss-url "^7.3.1"
     resolve "^1.3.3"
 
-"@sanity/webpack-loader@0.136.0":
-  version "0.136.0"
-  resolved "https://registry.npmjs.org/@sanity/webpack-loader/-/webpack-loader-0.136.0.tgz#b13c40e978e49c4a885f1d91c7e84c8571a2aa3f"
+"@sanity/webpack-loader@0.138.0":
+  version "0.138.0"
+  resolved "https://registry.npmjs.org/@sanity/webpack-loader/-/webpack-loader-0.138.0.tgz#e19fadfa1dfc52ad13c935083ac35dc11fdb5c8a"
   dependencies:
-    "@sanity/resolver" "0.136.0"
-    "@sanity/util" "0.136.0"
+    "@sanity/resolver" "0.138.0"
+    "@sanity/util" "0.138.0"
     loader-utils "^1.1.0"
 
 "@types/lodash@^4.14.116":
-  version "4.14.118"
-  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.118.tgz#247bab39bfcc6d910d4927c6e06cbc70ec376f27"
+  version "4.14.119"
+  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.119.tgz#be847e5f4bc3e35e46d041c394ead8b603ad8b39"
 
 "@types/memoize-one@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.npmjs.org/@types/memoize-one/-/memoize-one-3.1.1.tgz#0e21a1b91dc031fb59c1e1657b807ca9aec77475"
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/@types/memoize-one/-/memoize-one-3.1.2.tgz#0c6e21d603b83e6fed22945129d264a236d48979"
 
 "@types/node@^8.0.0":
   version "8.10.38"
   resolved "https://registry.npmjs.org/@types/node/-/node-8.10.38.tgz#e05c201a668492e534b48102aca0294898f449f6"
-
-"@types/prop-types@*":
-  version "15.5.7"
-  resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.5.7.tgz#c6f1e0d0109ff358b132d98b7b4025c7a7b707c5"
-
-"@types/react@^16.1.0":
-  version "16.7.13"
-  resolved "https://registry.npmjs.org/@types/react/-/react-16.7.13.tgz#d2369ae78377356d42fb54275d30218e84f2247a"
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^2.2.0"
 
 abbrev@1:
   version "1.1.1"
@@ -1145,8 +1133,8 @@ ajv@^5.0.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.1.0:
-  version "6.6.1"
-  resolved "https://registry.npmjs.org/ajv/-/ajv-6.6.1.tgz#6360f5ed0d80f232cc2b294c362d5dc2e538dd61"
+  version "6.6.2"
+  resolved "https://registry.npmjs.org/ajv/-/ajv-6.6.2.tgz#caceccf474bf3fc3ce3b147443711a24063cc30d"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1358,7 +1346,7 @@ babel-loader@^8.0.0:
     mkdirp "^0.5.1"
     util.promisify "^1.0.0"
 
-babel-runtime@6.x.x, babel-runtime@^6.11.6, babel-runtime@^6.23.0:
+babel-runtime@^6.11.6, babel-runtime@^6.23.0:
   version "6.26.0"
   resolved "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1455,10 +1443,6 @@ boundless-utils-omit-keys@^1.1.0:
 boundless-utils-uuid@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/boundless-utils-uuid/-/boundless-utils-uuid-1.1.0.tgz#ae709f1d4fd3a4557ad4a5c77b1f0a9f701e3ed3"
-
-bowser@^1.7.3:
-  version "1.9.4"
-  resolved "https://registry.npmjs.org/bowser/-/bowser-1.9.4.tgz#890c58a2813a9d3243704334fa81b96a5c150c9a"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1560,12 +1544,12 @@ browserslist@^2.0.0, browserslist@^2.11.3:
     electron-to-chromium "^1.3.30"
 
 browserslist@^4.3.4:
-  version "4.3.5"
-  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.3.5.tgz#1a917678acc07b55606748ea1adf9846ea8920f7"
+  version "4.3.6"
+  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.3.6.tgz#0f9d9081afc66b36f477c6bdf3813f784f42396a"
   dependencies:
-    caniuse-lite "^1.0.30000912"
-    electron-to-chromium "^1.3.86"
-    node-releases "^1.0.5"
+    caniuse-lite "^1.0.30000921"
+    electron-to-chromium "^1.3.92"
+    node-releases "^1.1.1"
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -1676,12 +1660,12 @@ caniuse-api@^2.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000916"
-  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000916.tgz#44556ba3f7360a4e103950fc58cc98b74d253da1"
+  version "1.0.30000921"
+  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000921.tgz#2aa78193e23539634abcf0248919d5901506c53b"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000912:
-  version "1.0.30000916"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000916.tgz#3428d3f529f0a7b2bfaaec65e796037bdd433aab"
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000921:
+  version "1.0.30000921"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000921.tgz#7a607c1623444b22351d834e093aedda3c42fbe8"
 
 canvas-to-blob@^0.0.0:
   version "0.0.0"
@@ -1953,7 +1937,7 @@ constants-browserify@^1.0.0:
 
 content-disposition@0.5.2:
   version "0.5.2"
-  resolved "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
+  resolved "http://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
 
 content-type@~1.0.4:
   version "1.0.4"
@@ -1982,8 +1966,8 @@ core-js@^1.0.0:
   resolved "http://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
 core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.0.tgz#1e30793e9ee5782b307e37ffa22da0eacddd84d4"
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -2053,9 +2037,9 @@ create-react-class@^15.5.3, create-react-class@^15.6.0:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-create-react-context@^0.2.1:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/create-react-context/-/create-react-context-0.2.3.tgz#9ec140a6914a22ef04b8b09b7771de89567cb6f3"
+create-react-context@<=0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
   dependencies:
     fbjs "^0.8.0"
     gud "^1.0.0"
@@ -2110,13 +2094,6 @@ css-color-function@~1.3.3:
 css-color-names@0.0.4:
   version "0.0.4"
   resolved "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
-
-css-in-js-utils@^2.0.0:
-  version "2.0.1"
-  resolved "http://registry.npmjs.org/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz#3b472b398787291b47cfe3e44fecfdd9e914ba99"
-  dependencies:
-    hyphenate-style-name "^1.0.2"
-    isobject "^3.0.1"
 
 css-loader@^0.28.7:
   version "0.28.11"
@@ -2214,10 +2191,6 @@ csso@~2.3.1:
     clap "^1.0.9"
     source-map "^0.5.3"
 
-csstype@^2.2.0:
-  version "2.5.8"
-  resolved "https://registry.npmjs.org/csstype/-/csstype-2.5.8.tgz#4ce5aa16ea0d562ef9105fa3ae2676f199586a35"
-
 cuint@^0.2.2:
   version "0.2.2"
   resolved "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz#408086d409550c2631155619e9fa7bcadc3b991b"
@@ -2243,8 +2216,8 @@ data-uri-to-buffer@1:
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-1.2.0.tgz#77163ea9c20d8641b4707e8f18abdf9a78f34835"
 
 date-fns@^1.29.0:
-  version "1.29.0"
-  resolved "https://registry.npmjs.org/date-fns/-/date-fns-1.29.0.tgz#12e609cdcb935127311d04d33334e2960a2a54e6"
+  version "1.30.1"
+  resolved "https://registry.npmjs.org/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
 
 date-now@1.0.1:
   version "1.0.1"
@@ -2428,9 +2401,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.86:
-  version "1.3.88"
-  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.88.tgz#f36ab32634f49ef2b0fdc1e82e2d1cc17feb29e7"
+electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.92:
+  version "1.3.94"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.94.tgz#896dba14f6fefb431295b90543874925ee0cd46e"
 
 element-resize-detector@^1.1.14:
   version "1.2.0"
@@ -3252,10 +3225,6 @@ humanize-list@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/humanize-list/-/humanize-list-1.0.1.tgz#e7e719c60a5d5848e8e0a5ed5f0a885496c239fd"
 
-hyphenate-style-name@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
-
 iconv-lite@0.4.23:
   version "0.4.23"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.23.tgz#297871f63be507adcfbfca715d0cd0eed84e9a63"
@@ -3343,13 +3312,6 @@ ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-inline-style-prefixer@^3.0.6:
-  version "3.0.8"
-  resolved "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
-  dependencies:
-    bowser "^1.7.3"
-    css-in-js-utils "^2.0.0"
-
 interop-require@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/interop-require/-/interop-require-1.0.0.tgz#e53103679944c88d7e6105b62a9f4475c783971e"
@@ -3405,7 +3367,7 @@ is-absolute-url@^2.0.0:
 
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"
-  resolved "https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz#a9e12cb3ae8d876727eeef3843f8a0897b5c98d6"
+  resolved "http://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz#a9e12cb3ae8d876727eeef3843f8a0897b5c98d6"
   dependencies:
     kind-of "^3.0.2"
 
@@ -3455,7 +3417,7 @@ is-callable@^1.0.4, is-callable@^1.1.3, is-callable@^1.1.4:
 
 is-data-descriptor@^0.1.4:
   version "0.1.4"
-  resolved "https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
+  resolved "http://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
   dependencies:
     kind-of "^3.0.2"
 
@@ -3675,8 +3637,8 @@ isomorphic-fetch@^2.1.1:
     whatwg-fetch ">=0.10.0"
 
 js-base64@^2.1.9:
-  version "2.4.9"
-  resolved "https://registry.npmjs.org/js-base64/-/js-base64-2.4.9.tgz#748911fb04f48a60c4771b375cac45a80df11c03"
+  version "2.5.0"
+  resolved "https://registry.npmjs.org/js-base64/-/js-base64-2.5.0.tgz#42255ba183ab67ce59a0dee640afdc00ab5ae93e"
 
 js-levenshtein@^1.1.3:
   version "1.1.4"
@@ -3914,6 +3876,10 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
+lodash.sortby@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+
 lodash.template@^4.2.4:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
@@ -3935,7 +3901,7 @@ lodash@^4.12.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.8.0:
   version "4.17.11"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
-log-symbols@^2.1.0:
+log-symbols@^2.1.0, log-symbols@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
   dependencies:
@@ -4179,8 +4145,8 @@ moment-timezone@^0.5.11:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.19.1:
-  version "2.22.2"
-  resolved "https://registry.npmjs.org/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+  version "2.23.0"
+  resolved "https://registry.npmjs.org/moment/-/moment-2.23.0.tgz#759ea491ac97d54bac5ad776996e2a58cc1bc225"
 
 ms@2.0.0:
   version "2.0.0"
@@ -4191,8 +4157,8 @@ ms@^2.1.1:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
 nan@^2.9.2:
-  version "2.11.1"
-  resolved "https://registry.npmjs.org/nan/-/nan-2.11.1.tgz#90e22bccb8ca57ea4cd37cc83d3819b52eea6766"
+  version "2.12.0"
+  resolved "https://registry.npmjs.org/nan/-/nan-2.12.0.tgz#9d443fdb5e13a20770cc5e602eee59760a685885"
 
 nano-pubsub@^1.0.2:
   version "1.0.2"
@@ -4292,9 +4258,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-releases@^1.0.5:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.0.tgz#be7464fa8d877808237520fd49436d5e79191c3d"
+node-releases@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.1.tgz#8fff8aea1cfcad1fb4205f805149054fbf73cafd"
   dependencies:
     semver "^5.3.0"
 
@@ -4456,6 +4422,10 @@ onecolor@^3.0.4:
   version "3.1.0"
   resolved "https://registry.npmjs.org/onecolor/-/onecolor-3.1.0.tgz#b72522270a49569ac20d244b3cd40fe157fda4d2"
 
+oneline@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/oneline/-/oneline-1.0.0.tgz#2294c1a20d7e7010b0490b78b4dc31e4e6661d95"
+
 original@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/original/-/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
@@ -4606,7 +4576,7 @@ path-key@^2.0.0, path-key@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
-path-parse@^1.0.5:
+path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
 
@@ -5212,8 +5182,8 @@ postcss@^6.0, postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.14, 
     supports-color "^5.4.0"
 
 postcss@^7.0.2:
-  version "7.0.6"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.6.tgz#6dcaa1e999cdd4a255dcd7d4d9547f4ca010cdc2"
+  version "7.0.7"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.7.tgz#2754d073f77acb4ef08f1235c36c5721a7201614"
   dependencies:
     chalk "^2.4.1"
     source-map "^0.6.1"
@@ -5251,14 +5221,6 @@ progress-stream@^2.0.0:
   dependencies:
     speedometer "~1.0.0"
     through2 "~2.0.3"
-
-promise-each-concurrency@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/promise-each-concurrency/-/promise-each-concurrency-2.0.1.tgz#27a61cf4db1cdc5cf5febd0a5a671627d1c8b3b2"
-  dependencies:
-    babel-runtime "^6.11.6"
-    debug "^2.2.0"
-    repeat-array "^1.0.0"
 
 promise-latest@^1.0.4:
   version "1.0.4"
@@ -5327,7 +5289,7 @@ pump@^2.0.0, pump@^2.0.1:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-pumpify@^1.3.3, pumpify@^1.3.5:
+pumpify@^1.3.3:
   version "1.5.1"
   resolved "https://registry.npmjs.org/pumpify/-/pumpify-1.5.1.tgz#36513be246ab27570b1a374a5ce278bfd74370ce"
   dependencies:
@@ -5464,7 +5426,7 @@ react-datepicker@^1.8.0:
     react-onclickoutside "^6.7.1"
     react-popper "^1.0.2"
 
-react-dom@^16.2:
+react-dom@^16.2, react-dom@^16.6.3:
   version "16.6.3"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
   dependencies:
@@ -5544,16 +5506,15 @@ react-onclickoutside@^6.7.1:
   resolved "https://registry.npmjs.org/react-onclickoutside/-/react-onclickoutside-6.7.1.tgz#6a5b5b8b4eae6b776259712c89c8a2b36b17be93"
 
 react-popper@^1.0.2:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/react-popper/-/react-popper-1.3.0.tgz#e769199bbe1273611957892f9950ef1d42c3f7ce"
+  version "1.3.2"
+  resolved "https://registry.npmjs.org/react-popper/-/react-popper-1.3.2.tgz#e723a0a7fe1c42099a13e5d494e9d7d74b352af4"
   dependencies:
-    "@types/react" "^16.1.0"
-    babel-runtime "6.x.x"
-    create-react-context "^0.2.1"
+    "@babel/runtime" "^7.1.2"
+    create-react-context "<=0.2.2"
     popper.js "^1.14.4"
     prop-types "^15.6.1"
-    typed-styles "^0.0.5"
-    warning "^3.0.0"
+    typed-styles "^0.0.7"
+    warning "^4.0.2"
 
 react-portal@^3.1.0:
   version "3.2.0"
@@ -5580,12 +5541,13 @@ react-spinner@^0.2.6:
   version "0.2.7"
   resolved "https://registry.npmjs.org/react-spinner/-/react-spinner-0.2.7.tgz#ea3ca3375dd7a54edbb5cc01d17496a2e2fc14db"
 
-react-split-pane@^0.1.63:
-  version "0.1.84"
-  resolved "https://registry.npmjs.org/react-split-pane/-/react-split-pane-0.1.84.tgz#b9c1499cbc40b09cf29953ee6f5ff1039d31906e"
+react-split-pane@^0.1.84:
+  version "0.1.85"
+  resolved "https://registry.npmjs.org/react-split-pane/-/react-split-pane-0.1.85.tgz#64819946a99b617ffa2d20f6f45a0056b6ee4faa"
   dependencies:
-    inline-style-prefixer "^3.0.6"
     prop-types "^15.5.10"
+    react "^16.6.3"
+    react-dom "^16.6.3"
     react-lifecycles-compat "^3.0.4"
     react-style-proptype "^3.0.0"
 
@@ -5613,7 +5575,7 @@ react-tippy@^1.2.3:
   dependencies:
     popper.js "^1.11.1"
 
-react@^16.2:
+react@^16.2, react@^16.6.3:
   version "16.6.3"
   resolved "https://registry.npmjs.org/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
   dependencies:
@@ -5778,10 +5740,6 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
 
-repeat-array@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/repeat-array/-/repeat-array-1.0.0.tgz#e2174a46046ff2884e0ed1341fd128753097cb02"
-
 repeat-element@^1.1.2:
   version "1.1.3"
   resolved "https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.3.tgz#782e0d825c0c5a3bb39731f84efee6b742e6b1ce"
@@ -5834,10 +5792,10 @@ resolve-url@^0.2.1:
   resolved "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
 resolve@^1.1.7, resolve@^1.3.2, resolve@^1.3.3:
-  version "1.8.1"
-  resolved "https://registry.npmjs.org/resolve/-/resolve-1.8.1.tgz#82f1ec19a423ac1fbd080b0bab06ba36e84a7a26"
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/resolve/-/resolve-1.9.0.tgz#a14c6fdfa8f92a7df1d996cb7105fa744658ea06"
   dependencies:
-    path-parse "^1.0.5"
+    path-parse "^1.0.6"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -6251,7 +6209,7 @@ split2@^2.1.1:
 
 sprintf-js@~1.0.2:
   version "1.0.3"
-  resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  resolved "http://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -6302,7 +6260,7 @@ strict-uri-encode@^1.0.0:
 
 string-width@^1.0.1:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  resolved "http://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
   dependencies:
     code-point-at "^1.0.0"
     is-fullwidth-code-point "^1.0.0"
@@ -6500,6 +6458,12 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+tr46@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
+  dependencies:
+    punycode "^2.1.0"
+
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
@@ -6531,9 +6495,9 @@ type-of@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/type-of/-/type-of-2.0.1.tgz#e72a1741896568e9f628378d816d6912f7f23972"
 
-typed-styles@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/typed-styles/-/typed-styles-0.0.5.tgz#a60df245d482a9b1adf9c06c078d0f06085ed1cf"
+typed-styles@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/typed-styles/-/typed-styles-0.0.7.tgz#93392a008794c4595119ff62dde6809dbc40a3d9"
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -6734,6 +6698,12 @@ warning@^3.0.0:
   dependencies:
     loose-envify "^1.0.0"
 
+warning@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/warning/-/warning-4.0.2.tgz#aa6876480872116fa3e11d434b0d0d8d91e44607"
+  dependencies:
+    loose-envify "^1.0.0"
+
 watchpack@^1.4.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/watchpack/-/watchpack-1.6.0.tgz#4bc12c2ebe8aa277a71f1d3f14d685c7b446cd00"
@@ -6741,6 +6711,10 @@ watchpack@^1.4.0:
     chokidar "^2.0.2"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+
+webidl-conversions@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
 
 webpack-dev-middleware@^2.0.5:
   version "2.0.6"
@@ -6809,6 +6783,14 @@ webpack@^3.8.1:
 whatwg-fetch@>=0.10.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
+
+whatwg-url@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-7.0.0.tgz#fde926fa54a599f3adf82dff25a9f7be02dc6edd"
+  dependencies:
+    lodash.sortby "^4.7.0"
+    tr46 "^1.0.1"
+    webidl-conversions "^4.0.2"
 
 whet.extend@~0.9.9:
   version "0.9.9"
