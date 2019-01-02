@@ -17,6 +17,7 @@ import localeBlockContent from './locale/BlockContent'
 import config from './config'
 import folder from './folder'
 import quark from './quark'
+import myFolderOrderings from './myFolderOrderings';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -41,5 +42,6 @@ export default createSchema({
     config,
     folder,
     quark,
+    myFolderOrderings,
   ])
 })
