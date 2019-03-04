@@ -23,6 +23,11 @@ export default {
       type: 'text'
     },
     {
+      name: 'description2',
+      title: 'Description2',
+      type: 'blockContent'
+    },
+    {
       name: 'parents',
       title: 'Parent categories',
       type: 'array',

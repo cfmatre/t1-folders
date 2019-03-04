@@ -1,5 +1,6 @@
 import S from '@sanity/desk-tool/structure-builder';
 import sanityClient from '@sanity/client';
+import exImport from './migrations/exImport';
 
 const client = sanityClient({
     projectId: '480iybm6',
@@ -55,4 +56,101 @@ export default async () =>
                 ),
             ...S.documentTypeListItems()
                 .filter(listItem => !['config'].includes(listItem.getId())),
+            extraF.testMigrate(),
+
         ]);
+
+const extraF = {
+    testMigrate: _ => {
+        return S.listItem()
+            .title('Test Migrate')
+            .child(() => {
+                // console.log('(:(|)');
+                extraF.getKey();
+                return null;
+            })
+    },
+    getKey: _ => {
+        console.log('getKey');
+        const groq = '*[_type == $type && defined(description) && !defined(description2)] {_id, title, description, description2}';
+        const params = {
+            "type": "category",
+            "field1": "description",
+            "field2": "description2",
+        }
+        client.fetch(groq, params).then(resultSet => {
+            console.log(resultSet);
+
+            for (let e of resultSet) {
+                if (e.title == '_test') {
+
+                    console.log(e);
+                    const d1Array = e.description.trim().split(/\r\n?|\n\r?/);
+                    const d2Array = d1Array.map(b => {
+                        return {
+                            _type: 'block',
+                            children: [
+                                {
+                                    _type: 'span',
+                                    // marks: [],
+                                    text: b.trim()
+                                }
+                            ],
+                            level: 1,
+                            listItem: 'bullet',
+                            markDefs: [],
+                            style: 'normal'
+                        }
+                    });
+
+                    client.patch(e._id)
+                        .setIfMissing({ description2: d2Array })
+                        .commit()
+                        .then(n => {
+                            console.log('Hurray, updated!')
+                            console.log(n)
+                        })
+                        .catch(err => {
+                            console.error('Oh no, the update failed: ', err.message)
+                        })
+                }
+
+            }
+        })
+        // const d2 = [
+        //     {
+        //         "_type": "block",
+        //         "children": [
+        //             {
+        //                 "_type": "span",
+        //                 "marks": [],
+        //                 "text": "australia"
+        //             }
+        //         ],
+        //         "level": 1,
+        //         "listItem": "bullet",
+        //         "markDefs": [],
+        //         "style": "normal"
+        //     },
+        //     {
+        //         "_type": "block",
+        //         "children": [
+        //             {
+        //                 "_type": "span",
+        //                 "marks": [],
+        //                 "text": "brazil"
+        //             }
+        //         ],
+        //         "level": 1,
+        //         "listItem": "bullet",
+        //         "markDefs": [],
+        //         "style": "normal"
+        //     }
+        // ]
+    },
+    testOk: _ => {
+        return S.listItem()
+            .title('TEST OK')
+            .child()
+    },
+}
